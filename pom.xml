@@ -504,5 +504,17 @@
 
     </dependencies>
   </dependencyManagement>
+
+  <reporting>
+    <plugins>
+      <plugin>
+        <artifactId>maven-pmd-plugin</artifactId>
+        <version>3.22.0</version>
+        <configuration>
+          <targetJdk>1.6</targetJdk>
+        </configuration>
+      </plugin>
+    </plugins>
+  </reporting>
   
 </project>
