@@ -502,19 +502,26 @@
         <version>${com.levigo.jbig2.levigo-jbig2-imageio.version}</version>
       </dependency>
 
+      <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-pmd-plugin -->
+      <dependency>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-pmd-plugin</artifactId>
+        <version>3.22.0</version>
+      </dependency>
+
     </dependencies>
   </dependencyManagement>
 
-  <reporting>
-    <plugins>
-      <plugin>
-        <artifactId>maven-pmd-plugin</artifactId>
-        <version>3.22.0</version>
-        <configuration>
-          <targetJdk>1.6</targetJdk>
-        </configuration>
-      </plugin>
-    </plugins>
-  </reporting>
+<!--  <reporting>-->
+<!--    <plugins>-->
+<!--      <plugin>-->
+<!--        <artifactId>maven-pmd-plugin</artifactId>-->
+<!--        <version>3.22.0</version>-->
+<!--        <configuration>-->
+<!--          <targetJdk>1.6</targetJdk>-->
+<!--        </configuration>-->
+<!--      </plugin>-->
+<!--    </plugins>-->
+<!--  </reporting>-->
   
 </project>
