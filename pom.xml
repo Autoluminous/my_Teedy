@@ -128,7 +128,7 @@
           <!-- printFailingErrors is pretty useful -->
           <printFailingErrors>true</printFailingErrors>
           <rulesets>
-            <ruleset>/D:/CS304/lab7/my_ruleset.xml</ruleset>
+            <ruleset>/mnt/d/CS304/lab7/my_ruleset.xml</ruleset>
           </rulesets>
         </configuration>
         <executions>
